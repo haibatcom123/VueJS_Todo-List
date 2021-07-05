@@ -1,5 +1,7 @@
 import en from './lang/en.json'
-import vn from './lang/vn.json'
+import vi from './lang/vi.json'
+import ja from './lang/ja.json'
+import es from './lang/es.json'
 
 import VueI18n from 'vue-i18n'
 import Vue from 'vue'
@@ -10,6 +12,8 @@ import Vue from 'vue'
      locale: localStorage.getItem('lang')||'en',
      messages:{
          en:en,
-         vn:vn
+         vi:vi,
+         ja:ja,
+         es:es
      }
  })

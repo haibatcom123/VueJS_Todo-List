@@ -2,7 +2,7 @@
 
   <div class="container">
     <div style="padding-left:10px">
-      <language />
+      {{ $t("Language")}}<language />
     </div>
     
     <h1>{{ $t("Enter a new task")}}</h1>

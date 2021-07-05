@@ -5,7 +5,9 @@
       <div class="col-2">
         <select class="form-select"  aria-label="Default select example" v-model="lang"  @change="handleChange($event)">
           <option value="en">English</option>
-          <option value="vn">Vietnamese</option>
+          <option value="vi">Vietnamese</option>
+          <option value="ja">Japanese</option>
+          <option value="es">Spanish</option>
         </select>
      
       </div>
